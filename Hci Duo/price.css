@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Ruthie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Ruthie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Ruthie&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: #DFC8B3;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgba(0,0,0, 0.2);
+    padding: 20px 100px;
+}
+
+.logo{
+    padding-right: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu{
+    display: contents;
+    align-items:center;
+    justify-content: center;
+    width: 60%;
+}
+
+h1{
+    color: white;
+}
+
+.logo img{
+    height: 90%;
+    padding-right: 20px;
+}
+
+.nav-menu a{
+    padding: 0px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    /* margin-top: 20px; */
+}
+
+header{
+    background-image: url(bggaleri.png);
+    height: 900px;
+}
+
+.judul {
+    padding-top: 280px;
+    padding-left: 100px;
+    text-align: left;
+
+}
+
+.judul h1{
+    font-size: 72px;
+}
+
+
+/* container-start */
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+ 
+}
+.price-content  ul{
+    padding-left: 2rem;
+}
+
+.price-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   width: 45%;
+   margin-bottom: 2rem;
+}
+
+.Bronze{
+    font-family: 'Ruthie', cursive;
+    font-size: 40px;
+}
+
+
+.price-content h3{
+    text-align: start;
+    width: 40%;
+}
+
+.pricing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.booknow{
+    background-color: #D9D9D9;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.booknow a{
+    color: #000;
+}
+/* container-end */
+
+
+ .Gold{
+    font-family: 'Ruthie', cursive;
+    font-size: 40px;
+}
+
+ .Silver{
+    font-family: 'Ruthie', cursive;
+    font-size: 40px;
+}
+
+ .Diamond{
+    font-family: 'Ruthie', cursive;
+    font-size: 40px;
+}
+
+.Immortal{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 60px;
+    color: white;
+}
+
+.Offer{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 50px;
+}
+
+/* footer-start */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.footer-left{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.footer-left a{
+    color: #524941;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.footer-left h3{
+    font-size: 1.25rem;
+    width: 70%;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.footer-middle{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.wrapimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-middle .wrapimg img{
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+.footer-right .wrapimg img{
+    height: 15rem;
+    margin: 2rem 0;
+}
+
+.subscribe a{
+    background-color: #8A7765;
+    color: #000;
+    padding: 0.5rem 1.75rem;
+    border-radius: 25px;
+   
+}
+.price-content h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.subscribe{
+    margin: 2rem;
+}
+.footer-right{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.sosmed-footer img{
+    height: 2.5rem;
+    padding: 0 1rem;
+}
+
+.footer-left .starts img{
+    margin-bottom: -1rem;
+    height: 4rem;
+}
+
+.footer-right .starts{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 4rem;
+    margin-bottom: -1rem;
+}
+
+/* footer-end */
+
+/* animation */
+@keyframes slider { 
+    0% { 
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    15% { 
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    40% {  
+        opacity: 1 
+    }
+    60% { 
+        opacity: 0 
+    }
+    100% { 
+        opacity: 0 
+    }
+}
+
+@keyframes scrollDown {
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,15px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
